@@ -21,7 +21,7 @@ class HalamanScaffold extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Mengambil ukuran setengah dari lebar layar secara dinamis
+    // Mengambil ukuran setengah dari lebar layar secara dynamic
     double setengahLebarLayar = MediaQuery.of(context).size.width / 2;
 
     return Scaffold(
